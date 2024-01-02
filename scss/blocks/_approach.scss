@@ -1,0 +1,39 @@
+.approach{
+    padding: 0 48px;
+    &__wrapper{
+        padding: 91px 60px 100px;
+        display: flex;
+        align-items:center;
+        column-gap: 48px;
+        border-radius: 24px;
+        background: var(--MED-White, #FFF);
+    
+        /* MED/card-shadow-02 */
+        box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
+    }
+    img{
+        width: 518px;
+        height: 518px;
+    }
+    &__descr{
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        &-title{
+            margin-bottom: 24px;
+        }
+        &-info{
+            color: var(--MED-Black, #000);
+            /* MED/Body/Large */
+            font-family: 'Inter',sans-serif;
+            align-self: stretch;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+            margin-bottom: 48px;
+
+        }
+
+    }
+}

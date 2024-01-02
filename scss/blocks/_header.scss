@@ -1,0 +1,32 @@
+.header{
+    color: var(--MED-Medium-Blue, #2514BE);
+    text-align: right;
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 48px;
+    }
+   
+    &__nav{
+        display: flex;
+        column-gap: 36px;
+        ul{
+            display: flex;
+            list-style-type: none;
+            column-gap: 36px;
+            align-items: center;
+            li{
+                a{
+                    color: var(--MED-Medium-Blue, #2514BE);
+                }
+            }
+        }
+    }
+}

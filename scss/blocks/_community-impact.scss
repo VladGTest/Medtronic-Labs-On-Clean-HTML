@@ -1,0 +1,36 @@
+.community-impact{
+    &__wrapper{
+        display: flex;
+        padding: 116px;
+        align-items: center;
+        gap: 96px;
+       
+    }
+    &__photo{
+        img{
+            display: flex;
+            height: 484px;
+            align-items: flex-start;
+            gap: 10px;
+            flex: 1 0 0;        
+        }
+    }
+    &__descr{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &-title{
+            margin-bottom: 24px;
+        }
+        &-info{
+            color: var(--MED-Black, #000);
+            /* MED/Body/Large */
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+            margin-bottom: 48px;
+        }
+    }
+}

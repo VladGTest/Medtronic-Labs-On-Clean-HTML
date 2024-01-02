@@ -1,0 +1,23 @@
+.text{
+    
+    &-5xl{
+        color: var(--MED-Medium-Blue, #2514BE);
+        /* MED/H2/Medium */
+        font-family: 'Inter',sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; /* 62.4px */
+        letter-spacing: -1.5px;
+    }
+    &-7xl{
+        color: var(--MED-Medium-Blue, #2514BE);
+        /* MED/H1/Medium */
+        font-family: 'Inter',sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 79.2px */
+        letter-spacing: -1.5px;
+    }
+}

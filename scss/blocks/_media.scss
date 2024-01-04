@@ -76,6 +76,14 @@
     .container{
         max-width: 720px;
     }
+    .text{
+        &-5xl{
+            font-size: 36px;
+        }
+        &-7xl{
+            font-size: 40px;
+        }
+    }
     .partners{
         &__list{
             justify-content: center;
@@ -109,15 +117,87 @@
     .container{
         max-width: 540px;
     }
+    .header{
+        &__wrapper{
+            padding: 12px 12px 12px 0;
+        }
+        &__hamburger{
+            top: 25px;
+        }
+        &__nav{
+            margin-top: 60px;
+        }
+    }
     .hero{
+        padding: 24px;
+        &__title{
+            margin-bottom: 24px;
+        }
         &__items{
+            gap: 0;
             &-block{
-                width: 500px;
+                width: 100%;
+                margin-bottom: 24px;
+                
             }
         }
        
     }
+    .approach{
+        &__image{
+            margin-bottom: 24px;
+        }
+    }
     .community-impact{
+        &__wrapper{
+            gap: 0;
+        }
+        &__image{
+            margin-bottom: 48px;
+        }
+    }
+    .approach{
+        padding: 12px;
+        &__wrapper{
+            padding: 24px;
+        }
+    }
+    .technology{
+        padding: 48px 12px;
+        &__wrapper{
+            padding:24px;
+            justify-content: center;
+        }
+    }
+    .partners{
+        padding: 24px;
+        background-color: white;
+        &__introduction{
+            display: none;
+            &-short{
+                display: inline-block;
+            }
+        }
+        &__list{
+            padding: 48px;
+            row-gap: 0;
+            flex-direction: column;
+            align-items: center;
+            &-item{
+                margin-bottom: 48px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                svg{
+                    path{
+                        fill:#54CC90;
+                    }
+                }
+            }
+        }
+    }
+    .community-impact{
+        padding: 24px;
         &__image{
             img{
                 width: 100%;
@@ -126,13 +206,69 @@
         }
     }
     .blog{
+        margin-bottom: 23px;
+        &__wrapper{
+            padding: 24px;
+        }
         &__header{
-            flex-wrap: wrap;
             &-title{
                 margin-bottom: 24px;
             }
         }
     }
+    .newsletters{
+        padding: 48px 12px;
+        &__block{
+            width: 100%;    
+            &-layout{
+                &-newsletters{
+                    width: 100%;
+                    border: none;
+                    background: transparent;
+                    flex-direction: column;
+                    margin-bottom: 100px;
+                    align-items:normal;
+                    &-input{
+                        padding: 12px 24px 12px 24px;
+                        border: 2px solid var(--MED-Medium-Blue,#2514be); 
+                        background: var(--MED-White,#fff);
+                        border-radius:50px;
+                        margin-bottom: 24px;
+                        text-align: center;
+                    }
+                }
+            }
+           
+            
+        }
+    }
+    .approach, .community-impact, .technology{
+        &__descr{
+            align-items: normal;
+        }
+    }
+    .footer{
+        padding: 12px;
+        &__content{
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            &-left{
+                margin-bottom: 48px;
+                width: 100%;
+            }
+            &-right{
+                gap: 0;
+                flex-wrap: wrap;
+                &-locations,&-healper,&-socials{
+                    width: 100%;
+                }
+                ul{
+                    margin-bottom: 48px;
+                }
+            }
+        }
+    }
+    
 }
 @media(max-width:576px){
     .continer{

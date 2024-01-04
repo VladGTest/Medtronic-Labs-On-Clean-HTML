@@ -24,6 +24,18 @@
         line-height: 32px; /* 177.778% */
         margin-bottom: 36px;
         width: 716px;
+        &-short{
+            color: var(--MED-Medium-Blue, #2514BE);
+            text-align: center;
+
+            /* MED/H5/Medium */
+            font-family: 'Inter',sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 26px */
+            display: none;
+        }
     }
     &__list{
         display: flex;

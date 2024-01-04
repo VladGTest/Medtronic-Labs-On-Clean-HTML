@@ -11,6 +11,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    outline: none;
 }
 
 .container{
@@ -28,3 +29,9 @@ body{
 @import 'blocks/hero';
 @import 'blocks/approach';
 @import 'blocks/community-impact';
+@import 'blocks/technology';
+@import 'blocks/partners';
+@import 'blocks/blog';
+@import 'blocks/newsletters';
+@import 'blocks/footer';
+@import 'blocks/media';

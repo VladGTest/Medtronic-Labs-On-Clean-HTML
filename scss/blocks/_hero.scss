@@ -1,4 +1,5 @@
 .hero{
+    padding: 0 48px;
     .container{
         max-width: 1440px;
     }
@@ -7,14 +8,15 @@
         padding: 116px;
         flex-direction: column;
         align-items: flex-start;
+        padding: 91px 60px 100px;
     }
-       
     &__title{
         margin-bottom: 48px;
     }
     &__items{
         display: flex;
         gap: 48px;
+        flex-wrap: wrap;
         &-block{
             color: var(--MED-Black, #000);
             /* MED/Body/Large */
@@ -23,6 +25,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 32px; /* 177.778% */
+            width: 576px;
         }
     }
 }

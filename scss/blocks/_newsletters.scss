@@ -1,0 +1,74 @@
+.newsletters{
+    display: flex;
+    padding: 116px;
+    flex-direction: column;
+    align-items: center;
+    &__block{
+        display: flex;
+        width: 648px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &-headline{
+            margin-bottom: 48px;
+            &-title{
+                margin-bottom: 24px;
+            }
+            &-descr{
+                color: var(--MED-Black, #000);
+                text-align: center;
+                /* MED/Body/Large */
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px; /* 177.778% */
+            }
+        }
+        &-layout{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-newsletters{
+                display: flex;
+                width: 600px;
+                height: 60px;
+                padding: 6px 6px 6px 24px;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 50px;
+                border: 2px solid var(--MED-Medium-Blue, #2514BE);
+                background: var(--MED-White, #FFF);
+                margin-bottom: 24px;
+                &-input{
+                    color: var(--MED-Medium-Blue, #2514BE);
+                    /* MED/Body/Regular */
+                    font-family: 'Inter',sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px; /* 150% */
+                    opacity: 0.5;
+                    border:none;
+                }
+                &-btn{
+                    padding: 16px 36px;
+                }
+            }
+            &-policy{
+                color: var(--MED-Medium-Blue, #2514BE);
+                text-align: center;
+                /* MED/Body/Small */
+                font-family: 'Inter',sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px; /* 128.571% */
+                opacity: 0.4;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

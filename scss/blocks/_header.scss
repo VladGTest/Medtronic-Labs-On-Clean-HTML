@@ -1,4 +1,8 @@
+
+
+
 .header{
+    position: relative;
     color: var(--MED-Medium-Blue, #2514BE);
     text-align: right;
     font-family: 'Inter',sans-serif;
@@ -7,11 +11,13 @@
     font-weight: 500;
     line-height: 100%; /* 14px */
     
+    
     &__wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 48px;
+        transition: 0.6s all;
     }
    
     &__nav{
@@ -27,6 +33,52 @@
                     color: var(--MED-Medium-Blue, #2514BE);
                 }
             }
+           
+        }
+        &.active{
+          left: 0;
+          visibility: visible;
+          opacity: 1;
+        }
+    }
+    &__hamburger{
+        position: absolute;
+        top: 60px;
+        right: 35px;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        display: none;
+        cursor: pointer;
+        span{
+            transition: 0.6s all; 
+            display: block;    
+            width: 30px;
+            height: 5px;
+            background-color: $medtronic-labs-color;
+            &:nth-child(2){
+                opacity: 1;
+            }
+        }
+        
+        &.active{
+          span{
+            transition: 0.6s all;
+            &:nth-child(1){
+              transform: rotate(45deg) translateY(11px) translateX(7px);
+            
+            }
+            &:nth-child(2){
+              display: none;
+              opacity: 0;
+            }
+            &:nth-child(3){
+             
+              transform: rotate(-45deg) translateX(1px) translateY(-5px);
+            }
+          }
         }
     }
 }

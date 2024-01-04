@@ -1,0 +1,78 @@
+.blog {
+    &__wrapper{
+        display: flex;
+        padding: 116px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    background: var(--MED-Medium-Blue, #2514BE);
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+        margin-bottom: 48px;
+        &-title{
+            color: var(--MED-White, #FFF);
+            /* MED/H2/Medium */
+            font-family: 'Inter',sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 62.4px */
+            letter-spacing: -1.5px;
+        }
+        &-links{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--MED-White, #FFF);
+            /* MED/Body/Large */
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+        }
+    }
+    &__posts{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 77px;
+        row-gap: 48px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        &-item{
+            width: 348px;
+            &-image{
+                height: 348px;
+                margin-bottom: 24px;
+            }
+            &-tag{
+                margin-bottom: 6px;
+                color: var(--med-medium-blue-30, #BCB5F7);
+                /* MED/Subtitle Small */
+                font-family: 'Inter',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 17.6px */
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+            }
+            &-title{
+                color: var(--MED-White, #FFF);
+                /* MED/Body/Large */
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px; /* 177.778% */
+            }
+        }
+    }
+    
+
+}

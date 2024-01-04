@@ -1,30 +1,30 @@
-.community-impact{
-    padding: 116px;
+.technology{
+    padding: 48px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+        
     &__wrapper{
         display: flex;
-        align-items: center;
-        gap: 96px;
-        
-    }
-    
-    &__image{
-        display: flex;
-        height: 484px;
+        padding: 96px;
         align-items: flex-start;
-        gap: 10px;
+        gap: 96px;
+        box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
+        border-radius: 24px;
         flex: 1 0 0;
-        img{
-          height: 484px;
-          width: 484px;
-        }
     }
-    
+    img{
+        width: 323.538px;
+        height: 327px;
+    }
     &__descr{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        &-title{
-            margin-bottom: 24px;
+        &-title, &-info{
+            margin-bottom: 48px;
         }
         &-info{
             color: var(--MED-Black, #000);
@@ -34,7 +34,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 32px; /* 177.778% */
-            margin-bottom: 48px;
+            
         }
     }
 }

@@ -329,4 +329,13 @@
             }
         }
     }
+    .newsletters{
+        &__block{
+            &-layout{
+                &-newsletters{
+                    padding: 0;
+                }
+            }
+        }
+    }
 }

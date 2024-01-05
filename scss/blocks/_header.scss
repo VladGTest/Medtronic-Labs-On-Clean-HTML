@@ -10,8 +10,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 100%; /* 14px */
-    
-    
     &__wrapper{
         display: flex;
         justify-content: space-between;
@@ -31,6 +29,11 @@
             li{
                 a{
                     color: var(--MED-Medium-Blue, #2514BE);
+                    transition: 0.6s all;
+                    &:hover{
+                      opacity: 0.5;
+                      transition: 0.6s all;
+                    }
                 }
             }
            

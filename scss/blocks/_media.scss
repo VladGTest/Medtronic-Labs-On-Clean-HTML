@@ -118,6 +118,13 @@
         max-width: 540px;
     }
     .header{
+        &__logo{
+            padding-left: 12px;
+            svg{
+                width: 217.676px;
+               
+            }
+        }
         &__wrapper{
             padding: 12px 12px 12px 0;
         }
@@ -126,10 +133,14 @@
         }
         &__nav{
             margin-top: 60px;
+            padding: 12px;
         }
     }
     .hero{
         padding: 24px;
+        &__wrapper{
+            padding: 0;
+        }
         &__title{
             margin-bottom: 24px;
         }
@@ -170,8 +181,10 @@
         }
     }
     .partners{
-        padding: 24px;
         background-color: white;
+        &__wrapper{
+            padding: 24px;
+        }
         &__introduction{
             display: none;
             &-short{
@@ -212,7 +225,12 @@
         }
         &__header{
             &-title{
-                margin-bottom: 24px;
+                font-size: 36px;
+            }
+        }
+        &__posts{
+            &-item{
+                width: 100%;
             }
         }
     }
@@ -249,12 +267,24 @@
     }
     .footer{
         padding: 12px;
+        hr{
+            margin-bottom: 48px;
+        }
         &__content{
             justify-content: flex-start;
+            margin-bottom: 48px;
             flex-wrap: wrap;
             &-left{
                 margin-bottom: 48px;
                 width: 100%;
+                &-logo{
+                    
+                        svg{
+                            width: 100%;
+                           
+                        }
+                    
+                }
             }
             &-right{
                 gap: 0;
@@ -267,11 +297,36 @@
                 }
             }
         }
+        &__down{
+            flex-direction: column-reverse;
+            &-policy{
+                margin-bottom: 12px;
+                flex-wrap: wrap;
+                column-gap:12px;
+            }
+        }
     }
     
 }
 @media(max-width:576px){
     .continer{
         max-width: 100%;
+    }
+    .technology{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .blog{
+        &__posts{
+            &-item{
+                &-image{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }

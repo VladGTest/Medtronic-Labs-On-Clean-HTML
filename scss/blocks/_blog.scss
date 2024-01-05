@@ -35,6 +35,11 @@
             font-style: normal;
             font-weight: 500;
             line-height: 32px; /* 177.778% */
+            transition: 0.3s all;
+            &:hover{
+                opacity: 0.5;
+                transition: 0.3s all;
+            }
         }
     }
     &__posts{

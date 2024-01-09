@@ -3,7 +3,7 @@
 
 
 body{
-    background: url('../backgrounds/combined bg.png') center center / cover no-repeat;
+    //background: url('../backgrounds/combined bg.png') center center / cover no-repeat;
 }
 
 *{
@@ -35,4 +35,7 @@ body{
 @import 'blocks/blog';
 @import 'blocks/newsletters';
 @import 'blocks/footer';
+@import 'blocks/hero-programs';
+@import 'blocks/countries-list';
+@import 'blocks/approach-programs';
 @import 'blocks/media';

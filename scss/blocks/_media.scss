@@ -43,7 +43,7 @@
             display: flex;
         }
     }
-    .approach{
+    .approach, .approach-programs{
         &__wrapper{
             flex-wrap: wrap;
         }
@@ -70,6 +70,29 @@
             }
         }
     }
+    .countries-list{
+        &__item{
+            column-gap:48px;
+            img{
+                width: 50%;
+            }
+        }
+    }
+    .hero-programs{
+        &__wrapper{
+            padding-right: 0;
+        }
+        &__map{
+            background-position-x: 190%;
+            background-size: 92%;
+            background-position-y: 55%;
+            width: 900px;
+            &-markers{
+                width: 307.17px;
+            }
+        }
+        
+    }
 }
 
 @media (max-width:992px){
@@ -84,12 +107,17 @@
             font-size: 40px;
         }
     }
+    .hero-programs{
+        &__title{
+            width: 100%;
+        }
+    }
     .partners{
         &__list{
             justify-content: center;
         }
     }
-    .approach{
+    .approach, .approach-programs{
         &__wrapper{
             padding: 48px;
         }
@@ -110,6 +138,41 @@
     .newsletters{
         &__block{
             width: 560px;
+        }
+    }
+    .hero-programs{
+        &__wrapper{
+            padding: 91px 0 100px;
+        }
+        &__map{
+            padding-right: 0;
+            padding-top: 25px;
+            width: 700px;
+            background-position-x: 254%;
+            background-position-y: 49%;
+            &-markers{
+                width: 241px
+            }
+            &-info{
+                &-descr{
+                    width: 280px;
+                }
+            }
+        }
+        
+    }
+    
+    .countries-list{
+        &__item{
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            &:nth-child(odd){
+                flex-direction: column-reverse;
+            }
+            img{
+                width: 100%;
+            } 
+           
         }
     }
 }
@@ -136,7 +199,7 @@
             padding: 12px;
         }
     }
-    .hero{
+    .hero, .hero-programs{
         padding: 24px;
         &__wrapper{
             padding: 0;
@@ -154,7 +217,7 @@
         }
        
     }
-    .approach{
+    .approach, .approach-programs{
         &__image{
             margin-bottom: 24px;
         }
@@ -167,7 +230,7 @@
             margin-bottom: 48px;
         }
     }
-    .approach{
+    .approach, .approach-programs{
         padding: 12px;
         &__wrapper{
             padding: 24px;
@@ -260,7 +323,7 @@
             
         }
     }
-    .approach, .community-impact, .technology{
+    .approach, .approach-programs, .community-impact, .technology{
         &__descr{
             align-items: normal;
         }
@@ -306,7 +369,32 @@
             }
         }
     }
-    
+    .countries-list{
+        &__item{
+            padding: 24px;
+            &-block{
+                align-items:normal;
+            }
+        }
+    }
+    .hero-programs{
+        &__wrapper{
+            align-items: center;
+        }
+        &__map{
+            background-size: 708px;
+    background-position-x: 87%;
+    background-position-y: 121%;
+            width: 500px;
+            flex-direction: column;
+            &-info{
+                width: 100%;
+            }
+            &-markers{
+                width: 260px;
+            }
+        }
+    }
 }
 @media(max-width:576px){
     .continer{
@@ -335,6 +423,28 @@
                 &-newsletters{
                     padding: 0;
                 }
+            }
+        }
+    }
+    .hero-programs{
+        &__map{
+            background-position-y: 230%;
+            background-size: 183%;
+            background-position-x: 82%;
+            min-height: 600px;
+            padding: 0;
+            width: 100%;
+            background-position-y: 169%;
+            background-size: 800px;
+            background-position-x: 80%;
+            &-info{
+                padding: 24px;
+                &-descr{
+                    width: 100%;
+                }
+            }
+            &-markers{
+                width: 300px;
             }
         }
     }

@@ -1,0 +1,32 @@
+.in-page{
+    background-color: $medtronic-labs-color;
+    &__list{
+        display: flex;
+        padding: 96px 116px 84px 116px;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-self: stretch;
+        row-gap: 36px;
+        &-item{
+            color: var(--MED-White, #FFF);
+            text-align: center;
+            /* MED/Subtitle Big */
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 19.8px */
+            letter-spacing: 0.9px;
+            text-transform: uppercase;
+            width: 302px;
+            padding-bottom: 36px;
+
+            cursor: pointer;
+            &.active{
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+}

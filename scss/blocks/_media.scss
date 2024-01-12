@@ -477,14 +477,31 @@
         }
     }
     .hero-approach{
+        padding: 0 12px;
         &__wrapper{
             padding: 24px;
+        }
+        &__main{
+            flex-direction: column-reverse;
+            img{
+                width: 100%;
+                margin-bottom: 24px;
+            }
         }
         &__items{
             &-block{
                 width: 100%;
             }
         }
+    }
+    .in-page{
+        &__list{
+            padding: 48px 24px;
+            &-item{
+                width: 100%;
+            }
+        }
+        
     }
     .principles{
         padding: 48px;
@@ -493,6 +510,40 @@
         }
         
     }
+    .for-patients, .for-partners, .for-health-systems{
+        &__item{
+            padding: 24px;
+            &-header{
+                margin-bottom: 48px;
+                hr{
+                    margin-bottom: 48px;
+                }
+                &-block{
+                    flex-direction: column;
+                    gap: 0;
+                    &-title, &-descr{
+                        width: 100%;
+                    }
+                    &-title{
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+            &-main{
+                &-block{
+                    flex-direction: column-reverse;
+                    width: 100%;
+                    &-info{
+                        padding: 24px;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+   
 }
 @media(max-width:576px){
     .continer{

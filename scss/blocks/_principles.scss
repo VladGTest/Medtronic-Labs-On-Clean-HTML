@@ -1,9 +1,5 @@
 .principles {
-
-
     padding: 116px;
-
-
     &__title {
         margin-bottom: 24px;
     }
@@ -12,7 +8,27 @@
         border: 2px solid #BCB5F7;
         margin-bottom: 96px;
     }
+    &__image{
+        display: flex;
+        align-items:flex-end;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        img{
+            margin-bottom: 24px;
+           
+        }
+        &-descr{
+            color: var(--MED-Black, #000);
 
+            /* MED/Body/Regular */
+            font-family: 'Inter',sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            width: 580px;
+        }
+    }
     &__wrapper {
         display: flex;
         align-items: center;

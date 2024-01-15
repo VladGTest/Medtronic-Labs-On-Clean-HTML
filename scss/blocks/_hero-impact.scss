@@ -1,0 +1,66 @@
+.hero-impact{
+    padding: 116px;
+    background: url('../img/impact/hero.png') center center / cover no-repeat;
+    &__wrapper{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__title{
+      color:white;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    &__descr{
+        color: var(--MED-White, #FFF);
+        text-align: center;
+
+        /* MED/Body/Large */
+        font-family: 'Inter',sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+        width: 720px;
+        margin-bottom: 48px;
+    }
+    &__stats{
+        display: flex;
+        gap:24px;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-item{
+            display: flex;
+            padding: 24px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 24px;
+            background-color: var(--MED-White, #FFF);
+            &-title{
+                color: var(--MED-Medium-Blue, #2514BE);
+
+                /* MED/H2/Bold */
+                font-family: 'Inter',sans-serif;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 130%; /* 62.4px */
+                letter-spacing: -1.5px;
+            }
+            &-descr{
+                color: var(--MED-Medium-Blue, #2514BE);
+                text-align: center;
+
+                /* MED/H4/Regular */
+                font-family: 'Inter',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%; /* 19.2px */
+                text-transform: capitalize;
+            }
+        }
+    }
+}

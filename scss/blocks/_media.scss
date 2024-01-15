@@ -119,6 +119,30 @@
             }
         }
     }
+    .hero-technology{
+        &__header{
+            flex-direction: column-reverse;
+            &-info{
+                &-list{
+                    margin-bottom: 48px;
+                }
+            }
+        }
+    }
+    .platform-features{
+        &__list{
+            column-gap:24px;
+            &-item{
+                width: 360px;
+            }
+        }
+    }
+    .community-impact-technology{
+        &__wrapper{
+            gap: 48px;
+            flex-direction: column-reverse;
+        }
+    }
 }
 
 @media (max-width:992px){
@@ -256,6 +280,23 @@
             }
         }
     }
+    .platform-features{
+        &__list{
+            &-item{
+                width: 100%;
+            }
+        }
+    }
+    .principles{
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+        &__image{
+            &-descr{
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width:768px){
     .container{
@@ -280,7 +321,7 @@
             padding: 12px;
         }
     }
-    .hero, .hero-programs{
+    .hero, .hero-programs, .hero-technology{
         padding: 24px;
         &__wrapper{
             padding: 0;
@@ -353,7 +394,7 @@
             }
         }
     }
-    .community-impact{
+    .community-impact, .community-impact-technology{
         padding: 24px;
         &__image{
             img{
@@ -543,6 +584,52 @@
             }
         }
     }
+    .hero-technology{
+        &__header{
+            &-info{
+                &-list{
+                    &-item{
+                        width: 100%;
+                    }
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+        &__footer{
+            &-info{
+                &-title,&-descr{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .demo{
+        &__wrapper{
+            padding: 24px;
+        }
+    }
+    .platform-features{
+        padding: 48px;
+        &__list{
+            &-item{
+                padding:24px;
+            }
+        }
+    }
+    .data-privacy{
+        padding:48px;
+        &__descr{
+            width: 100%;
+        }
+    }
+    .hero-impact{
+        padding:48px;
+        &__descr{
+            width: 100%;
+        }
+    }
    
 }
 @media(max-width:576px){
@@ -594,6 +681,13 @@
             }
             &-markers{
                 width: 300px;
+            }
+        }
+    }
+    .data-privacy{
+        &__list{
+            &-item{
+                flex-direction: column-reverse;
             }
         }
     }

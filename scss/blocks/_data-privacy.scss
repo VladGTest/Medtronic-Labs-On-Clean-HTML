@@ -1,0 +1,45 @@
+.data-privacy{
+    background-color: var(--MED-Medium-Blue, #2514BE);
+    padding: 116px;
+    &__title{
+        color:white;
+        margin-bottom: 24px;
+    }
+    hr{
+        border:2px solid #BCB5F7;
+        margin-bottom: 72px;
+    }
+    &__descr{
+        color: var(--MED-White, #FFF);
+
+        /* MED/Body/Large */
+        font-family: 'Inter',sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+        width: 576px;
+        margin-bottom: 96px;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap:48px;
+        &-item{
+            display: flex;
+            width: 576px;
+            align-items: center;
+            gap: 24px;
+            &-descr{
+                color: var(--text-color-color-2, #FFF);
+
+                /* MED/Body/Large */
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px; /* 177.778% */
+            }
+        }
+    }
+}

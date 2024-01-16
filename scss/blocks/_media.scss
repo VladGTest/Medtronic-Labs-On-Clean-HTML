@@ -143,6 +143,59 @@
             flex-direction: column-reverse;
         }
     }
+    .featured-stories{
+        &__list{
+            justify-content: center;
+            &-item{
+                width: 480px;
+            }
+        }
+    }
+    .impact-2020{
+        &__block{
+            &-info{
+                padding-right: 24px;
+            }
+            &-item{
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+            }
+            &-buttons{
+                padding-right: 24px;
+            }
+        }
+        &__wrapper{
+            column-gap:48px;
+            img{
+                width: 50%;
+                height: 50%;
+            }
+        }
+    }
+    .impact-2019{
+        &__block{
+            &-info{
+                padding-left: 24px;
+                &-list{
+                    flex-wrap: wrap;
+                }
+            }
+            &-item{
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            &-buttons{
+                padding-left: 24px;
+            }
+        }
+        &__wrapper{
+            column-gap:48px;
+            img{
+                width: 50%;
+                height: 50%;
+            }
+        }
+    }
 }
 
 @media (max-width:992px){
@@ -294,6 +347,42 @@
         &__image{
             &-descr{
                 width: 100%;
+            }
+        }
+    }
+    .impact-2020{
+        &__wrapper{
+            flex-wrap: wrap;
+            flex-direction: column;
+            img{
+                margin-bottom: 24px;
+            }
+            
+        }
+        &__block{
+            &-info{
+                padding-right: 0;
+            }
+            &-buttons{
+                padding-right: 0;
+            }
+        }
+    }
+    .impact-2019{
+        &__wrapper{
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            img{
+                margin-bottom: 24px;
+            }
+            
+        }
+        &__block{
+            &-info{
+                padding-left: 0;
+            }
+            &-buttons{
+                padding-left: 0;
             }
         }
     }
@@ -630,7 +719,21 @@
             width: 100%;
         }
     }
-   
+    .featured-stories{
+        padding: 48px;
+        &__list{
+            &-item{
+                width: 100%;
+            }
+        }
+    }
+    .impact-2019, .impact-2020{
+        padding: 48px 0;
+        &__block{
+            padding: 0 24px;
+        }
+    }
+  
 }
 @media(max-width:576px){
     .continer{

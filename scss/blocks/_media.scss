@@ -196,6 +196,15 @@
             }
         }
     }
+    .community-impact-approach{
+        &__wrapper{
+            column-gap:48px;
+            img{
+                width: 50%;
+            }
+
+        }
+    }
 }
 
 @media (max-width:992px){
@@ -383,6 +392,16 @@
             }
             &-buttons{
                 padding-left: 0;
+            }
+        }
+    }
+    .community-impact-approach{
+        &__wrapper{
+            flex-direction: column;
+            img{
+                width: 100%;
+                
+                margin-bottom: 24px;
             }
         }
     }
@@ -733,7 +752,12 @@
             padding: 0 24px;
         }
     }
-  
+    .community-impact-approach{
+        padding: 24px 24px;
+        &__info{
+            align-items:normal;
+        }
+    }
 }
 @media(max-width:576px){
     .continer{

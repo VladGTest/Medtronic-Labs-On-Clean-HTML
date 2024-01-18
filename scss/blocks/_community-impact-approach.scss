@@ -1,0 +1,29 @@
+.community-impact-approach{
+    padding: 116px;
+
+    &__wrapper{
+        display: flex;
+        column-gap: 96px;
+        align-items: center;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 628px;
+        &-title{
+            margin-bottom: 24px;
+        }
+        &-descr{
+            margin-bottom: 48px;
+            color: var(--MED-Black, #000);
+
+            /* MED/Body/Large */
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+        }
+    }
+}

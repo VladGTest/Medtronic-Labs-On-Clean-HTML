@@ -205,6 +205,31 @@
 
         }
     }
+    .featured-posts{
+        &__main{
+            &-info{
+                &-subtitle{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .publications{
+        &__list{
+            justify-content: center;
+          
+        }
+    }
+    .publications-reports{
+        &__list{
+            &-item{
+                &-left{
+                    width: 450px;
+                }
+            }
+        }
+    }
+    
 }
 
 @media (max-width:992px){
@@ -402,6 +427,56 @@
                 width: 100%;
                 
                 margin-bottom: 24px;
+            }
+        }
+    }
+    .featured-posts{
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+        &__main{
+            margin-bottom: 24px;
+        }
+        &__blocks{
+            align-items:center;
+            &-item{
+                width: 425px;
+            }
+        }
+    }
+    .more-posts{
+        &__list{
+            justify-content: center;
+        }
+       
+    }
+    .publications{
+        &__pages{
+            justify-content: center;
+        }
+    }
+    .publications-reports{
+        &__list{
+            &-item{
+                &-left{
+                    width: 350px;
+
+                    &-logo{
+                        svg{
+                            width: 250px;
+                        }
+                    }
+                    &-footer{
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items: flex-start;
+                    }
+                }
+                &-content{
+                    &-title{
+                        width: 100%;
+                    }
+                }
             }
         }
     }
@@ -758,6 +833,88 @@
             align-items:normal;
         }
     }
+    .hero-insights{
+        padding: 48px;
+    }
+    .featured-posts{
+        padding: 48px;
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+        &__main{
+            margin-bottom: 24px;
+            &-info{
+                padding: 24px;
+                &-title{
+                    font-size: 36px;
+                }
+            }
+        }
+        &__blocks{
+            align-items:center;
+            &-item{
+                width: 100%;
+            }
+        }
+    }
+    .more-posts{
+        padding: 48px;
+        &__pages{
+            justify-content: center;
+        }
+    }
+    .publications{
+        padding: 48px;
+        &__list{
+            &-item{
+                padding: 24px;
+                flex-direction: column;
+                
+                img{
+                    width: 50%;
+                }
+                &-info{
+                    width: 100%;
+                    align-items:normal;
+                }
+                
+            }
+        }
+    }
+    .publications-reports{
+        padding: 48px;
+        &__list{
+            align-content: center;
+            &-item{
+                flex-direction: column-reverse;
+                margin-bottom: 48px;
+                &-left{
+                    width: 100%;
+                    padding: 24px;
+                    &-logo{
+                        svg{
+                            width: 250px;
+                        }
+                    }
+                    &-footer{
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items: flex-start;
+                    }
+                }
+                &-content{
+                    margin-bottom: 24px;
+                    align-items:normal;
+                    &-title{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &__pages{
+            justify-content: center;
+        }
+    }
 }
 @media(max-width:576px){
     .continer{
@@ -815,6 +972,14 @@
         &__list{
             &-item{
                 flex-direction: column-reverse;
+            }
+        }
+    }
+    .more-posts{
+        &__list{
+            &-item{
+                width: 100%;
+                
             }
         }
     }

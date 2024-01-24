@@ -1,0 +1,39 @@
+.our-story{
+    padding: 116px;
+    &__title{
+        margin-bottom: 48px;
+    }
+    &__list{
+        display: flex;
+        align-items: flex-start;
+        gap: 48px;
+        flex-wrap: wrap;
+        &-left,&-right{
+            &-item{
+                width: 532px;
+                color: var(--MED-Black, #000);
+    
+                /* MED/Body/Large */
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px; /* 177.778% */
+                margin-bottom: 24px;
+            }
+        }
+        
+    }
+   
+}
+
+.our-story-background{
+      
+        display: flex;
+        min-height: 676px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        background: url('../img/about-us/background-our-story.png') center center / contain no-repeat; 
+    
+}

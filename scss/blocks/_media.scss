@@ -229,6 +229,21 @@
             }
         }
     }
+    .our-vision{
+        &__blocks{
+            min-width: 0;
+        }
+    }
+    .our-team{
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+    }
+    .community-impact-our{
+        img{
+            width: 50%;
+        }
+    }
     
 }
 
@@ -578,7 +593,7 @@
         }
     }
     .community-impact, .community-impact-technology{
-        padding: 24px;
+        padding: 48px 12px;
         &__image{
             img{
                 width: 100%;
@@ -728,7 +743,7 @@
         
     }
     .principles{
-        padding: 48px;
+        padding: 48px 12px;
         &__wrapper{
             flex-direction: column-reverse;
         }
@@ -794,7 +809,7 @@
         }
     }
     .platform-features{
-        padding: 48px;
+        padding: 48px 12px;
         &__list{
             &-item{
                 padding:24px;
@@ -802,19 +817,19 @@
         }
     }
     .data-privacy{
-        padding:48px;
+        padding:48px 12px;
         &__descr{
             width: 100%;
         }
     }
     .hero-impact{
-        padding:48px;
+        padding:48px 12px;
         &__descr{
             width: 100%;
         }
     }
     .featured-stories{
-        padding: 48px;
+        padding: 48px 12px;
         &__list{
             &-item{
                 width: 100%;
@@ -834,10 +849,10 @@
         }
     }
     .hero-insights{
-        padding: 48px;
+        padding: 48px 12px;
     }
     .featured-posts{
-        padding: 48px;
+        padding: 48px 12px;
         &__wrapper{
             flex-direction: column-reverse;
         }
@@ -858,13 +873,13 @@
         }
     }
     .more-posts{
-        padding: 48px;
+        padding: 48px 12px;
         &__pages{
             justify-content: center;
         }
     }
     .publications{
-        padding: 48px;
+        padding: 48px 12px;
         &__list{
             &-item{
                 padding: 24px;
@@ -882,7 +897,7 @@
         }
     }
     .publications-reports{
-        padding: 48px;
+        padding: 48px 12px;
         &__list{
             align-content: center;
             &-item{
@@ -913,6 +928,54 @@
         }
         &__pages{
             justify-content: center;
+        }
+    }
+    .our-story{
+        padding: 48px 12px;
+        &__list{
+            gap: 0;
+            &-left, &-right{
+                &-item{
+                    width: 100%;
+                }
+            }
+           
+        }
+    }
+    .our-vision{
+        padding: 48px 12px;
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+        &__info{
+            margin-bottom: 48px;
+        }
+        &__blocks{
+            justify-content: center;
+        }
+    }
+    .our-team{
+        padding: 48px 12px;
+        &__info{
+            width: 100%;
+            align-items:normal;
+        }
+        &__image{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .community-impact-our{
+        padding: 48px 12px;
+        &__wrapper{
+            flex-direction: column;
+            gap: 0;
+        }
+        img{
+            margin-bottom: 48px;
+        }
+        &__descr{
+            align-items:normal;
         }
     }
 }

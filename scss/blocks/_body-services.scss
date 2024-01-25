@@ -1,0 +1,37 @@
+.body-services{
+    padding: 48px 116px;
+    &__list{
+        &-item{
+            display: flex;
+            width: 928px;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 48px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &-title{
+                color: var(--MED-Medium-Blue, #2514BE);
+
+                /* MED/H2/Medium */
+                font-family: 'Inter',sans-serif;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 130%; /* 62.4px */
+                letter-spacing: -1.5px;
+                margin-bottom: 24px;
+            }
+            &-descr{
+                color: var(--MED-Black, #000);
+
+                /* MED/Body/Large */
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px; /* 177.778% */
+            }
+        }
+    }
+}

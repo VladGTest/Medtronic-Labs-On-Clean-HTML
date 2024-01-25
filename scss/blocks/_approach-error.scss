@@ -1,0 +1,22 @@
+.approach-error{
+    padding: 116px;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    &__title{
+        margin-bottom: 48px;
+    }
+    &__descr{
+        color: var(--MED-Black, #000);
+
+        /* MED/Body/Large */
+        font-family: 'Inter',sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+        margin-bottom: 48px;
+    }
+}

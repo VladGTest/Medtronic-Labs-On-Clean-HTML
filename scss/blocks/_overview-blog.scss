@@ -1,0 +1,111 @@
+.overview-blog{
+    padding: 116px 0 116px 116px;
+    &__title{
+        margin-bottom: 24px;
+    }
+    hr{
+        border:2px solid #BCB5F7;
+        margin-bottom: 72px;
+    }
+    &__info{
+        display: flex;
+        column-gap:96px;
+        &-left{
+            width: 480px;
+            &-bold{
+                color: var(--MED-Black, #000);
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 32px; /* 177.778% */
+                margin-bottom: 24px;
+            }
+            &-list{
+                
+                &-item{
+                    color: var(--MED-Black, #000);
+
+                    /* MED/Body/Large */
+                    font-family: 'Inter',sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px; /* 177.778% */
+                    margin-bottom: 24px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+                
+            }
+        }
+        &-right{
+            display: flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: center;
+            width: 748px;
+           
+            &-block{
+                border-radius: 24px 0px 0px 24px;
+                background: var(--MED-White, #FFF);
+    
+                /* MED/card-shadow-02 */
+                box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
+                display: flex;
+                flex-direction: row;
+                &-descr{
+                    padding: 48px;
+                    &-quote{
+                        margin-bottom: 48px;
+                    }
+                    &-title{
+                        color: var(--MED-Medium-Blue, #2514BE);
+
+                        /* MED/Subtitle Big */
+                        font-family: 'Inter',sans-serif;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 110%; /* 19.8px */
+                        letter-spacing: 0.9px;
+                        text-transform: uppercase;
+                        margin-bottom: 24px;
+                    }
+                    &-descr{
+                        color: var(--MED-Black, #000);
+
+                        /* MED/Body/Large */
+                        font-family: 'Inter',sans-serif;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 32px; /* 177.778% */
+                        margin-bottom: 24px;
+                    }
+                    &-author{
+                        &-initials{
+                            color: var(--MED-Medium-Blue, #2514BE);
+
+                            /* MED/H5/Bold */
+                            font-family: 'Inter',sans-serif;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 130%; /* 26px */
+                        }
+                        &-locations{
+                            color: var(--MED-Medium-Blue, #2514BE);
+                            font-family: 'Inter',sans-serif;
+                            font-size: 20px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 150%; /* 30px */
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

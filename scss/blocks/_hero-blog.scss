@@ -1,5 +1,6 @@
 .hero-blog{
     padding: 36px 48px;
+    min-height: 720px;
     background: url('../img/blogs/backgrounds/hero1.png') center center / cover no-repeat;
     &__wrapper{
         width: 100%;
@@ -41,7 +42,7 @@
         align-items:center;
         width: 720px;
         margin: 0 auto;
-        margin-bottom: 138px;
+       
         &-subtitle{
             color: var(--MED-White, #FFF);
             text-align: center;

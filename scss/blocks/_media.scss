@@ -262,7 +262,23 @@
             }
        }
     }
-    
+    .overview-blog{
+        padding: 116px 0 116px 24px;
+        &__info{
+            column-gap:48px;
+        }
+    }
+    .how-it-works{
+        &__list{
+            &-item{
+                width: 100%;
+            }
+
+        }
+        &__image{
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width:992px){
@@ -531,6 +547,27 @@
              }
         }
      }
+    .overview-blog{
+        &__info{
+            flex-direction: column;
+            &-left{
+                margin-bottom: 48px;
+            }
+            &-right{
+                width: 100%;
+            }
+        }
+    }
+    .how-it-works{
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+    }
+    .technology-highlights{
+        &__blocks{
+            justify-content: center;
+        }
+    }
 }
 @media (max-width:768px){
     .container{
@@ -1063,6 +1100,44 @@
             align-items:normal;
         }
      }
+     .hero-blog{
+        &__info{
+            width: 100%;
+        }
+     }
+     .overview-blog{
+        padding: 48px 12px;
+        &__info{
+            &-left{
+                width: 100%;
+            }
+            &-right{
+                &-block{
+                    flex-direction: column-reverse;
+                    align-items:center;
+                    img{
+                        width: 50%;
+                    }
+                    &-descr{
+                        padding: 12px;
+                    }
+                }
+
+            }
+        }
+     }
+     .how-it-works{
+        padding: 48px 12px;
+     }
+     .technology-highlights{
+        padding: 48px 12px;
+     }
+     .learn-more-technology{
+        padding: 48px 12px;
+        &__title{
+            width: 100%;
+        }
+     }
 }
 @media(max-width:576px){
     .continer{
@@ -1128,6 +1203,13 @@
             &-item{
                 width: 100%;
                 
+            }
+        }
+    }
+    .technology-highlights{
+        &__blocks{
+            &-item{
+                width: 100%;
             }
         }
     }

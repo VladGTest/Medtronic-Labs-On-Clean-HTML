@@ -16,6 +16,7 @@
         flex-wrap: wrap;
         img{
             margin-bottom: 24px;
+            width: 100%;
            
         }
         &-descr{
@@ -33,7 +34,6 @@
     &__wrapper {
         display: flex;
         align-items: flex-start;
-        justify-content: center;
         gap: 96px;
     }
     &__list{

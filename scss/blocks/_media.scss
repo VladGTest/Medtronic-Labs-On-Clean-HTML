@@ -279,6 +279,20 @@
             width: 100%;
         }
     }
+    .report-highlights{
+        &__main{
+            &-info{
+                &-subtitle{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .more-articles{
+        &__blocks{
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width:992px){
@@ -566,6 +580,35 @@
     .technology-highlights{
         &__blocks{
             justify-content: center;
+        }
+    }
+    .report-highlights{
+        &__blocks{
+            &-item{
+                width: 100%;
+            }
+        }
+        &__main{
+            height: 1125px;
+            &-info{
+                padding: 48px;
+            }
+        }
+    }
+    .impact-2020-download{
+        &__block{
+            flex-direction: column;
+            &-left{
+                margin-bottom: 48px;
+            }
+        }
+        &__info{
+            &-block{
+                flex-direction: column;
+                &-left{
+                    margin-bottom: 48px;
+                }
+            }
         }
     }
 }
@@ -1138,6 +1181,87 @@
             width: 100%;
         }
      }
+     .hero-report{
+        padding: 48px 12px;
+     }
+     .report-highlights{
+        padding: 48px 12px;
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+        &__main{
+            margin-bottom: 48px;
+            height: 852px;
+        }
+        &__blocks{
+
+            justify-content: center;
+            align-items:center;
+            &-item{
+                width: 264px;
+            }
+        }
+     }
+     .more-articles{
+        padding: 48px 12px;
+        &__pages{
+            justify-content: center;
+        }
+     }
+     .impact-2020-download{
+        padding: 48px 12px;
+        &__block{
+            &-left{
+                width: 100%;
+                &-logo{
+                    svg{
+                        width: 100%;
+                    }
+                }
+                &-footer{
+                    flex-direction: column-reverse;
+                    align-items:flex-start;
+                    &-format{
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+            &-content{
+                align-items:normal;
+            }
+        }
+        &__info{
+            &-block{
+                &-left{
+                    width: 100%;
+                    
+                }
+                &-right{
+                    width: 100%;
+                    &-footer{
+                        flex-direction: column-reverse;
+                        align-items:flex-start;
+                        &-format{
+                            margin-bottom: 12px;
+                        }
+                    }
+                    &-logo{
+                        svg{
+                            width: 100%;
+
+                        }
+                    }
+                    
+                }
+            }
+           
+        }
+        &__footer{
+            a{
+                width: 100%;
+            }
+        }
+     }
 }
 @media(max-width:576px){
     .continer{
@@ -1207,6 +1331,13 @@
         }
     }
     .technology-highlights{
+        &__blocks{
+            &-item{
+                width: 100%;
+            }
+        }
+    }
+    .report-highlights{
         &__blocks{
             &-item{
                 width: 100%;

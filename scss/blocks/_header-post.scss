@@ -1,0 +1,59 @@
+.header-post{
+    padding: 116px 116px 116px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items:flex-end;
+    }
+    &__contact{
+        padding-left: 116px;
+        padding-bottom: 8px;
+        width: 348px;
+        &-icon{
+            width: 36px;
+            height: 36px;
+            border-radius:100%;
+            background-color:$medtronic-labs-color;
+            display: flex;
+            align-items:center;
+            align-content:center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+        &-name{
+            color: var(--MED-Medium-Blue, #2514BE);
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%; /* 28.8px */
+        }
+        &-date{
+            color: var(--MED-Medium-Blue, #2514BE);
+
+            /* MED/Body/Regular */
+            font-family: 'Inter',sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+        }
+    }
+    &__main{
+        width: 928px;
+        &-preheader{
+            color: var(--MED-Medium-Blue, #2514BE);
+
+            /* MED/Subtitle Big */
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 19.8px */
+            letter-spacing: 0.9px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+    }
+}

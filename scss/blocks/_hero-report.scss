@@ -1,0 +1,54 @@
+.hero-report{
+    background-color:$medtronic-labs-color;
+    padding: 116px;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    &__title{
+        color:white;
+        margin-bottom: 48px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        gap: 24px;
+        align-self: stretch;
+        &-item{
+            border-radius: 24px;
+            background: var(--MED-White, #FFF);
+            padding:24px;
+            /* MED/card-shadow-01 */
+            box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            &-title{
+                color: var(--MED-Medium-Blue, #2514BE);
+
+                /* MED/H2/Bold */
+                font-family: 'Inter',sans-serif;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 130%; /* 62.4px */
+                letter-spacing: -1.5px;
+            }
+            &-descr{
+                color: var(--MED-Medium-Blue, #2514BE);
+                text-align: center;
+
+                /* MED/H4/Regular */
+                font-family: 'Inter',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%; /* 19.2px */
+                text-transform: capitalize;
+            }
+        }
+    }
+}

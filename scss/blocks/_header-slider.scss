@@ -1,0 +1,25 @@
+.header-slider{
+    background: url('../img/individual-post/backgrounds/header-slider/main-back.png') center center / cover no-repeat;
+    min-height: 676px;
+    position:relative;
+    padding: 36px;
+   
+    &__navigation{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right:  36px;
+        bottom: 36px;
+        gap: 12px;
+        &-next, &-prev{
+            transition: 0.3s all;
+            cursor: pointer;
+            &:hover{
+                transition: 0.3s all;
+                opacity: 0.7;
+                
+            }
+        }
+    }
+}

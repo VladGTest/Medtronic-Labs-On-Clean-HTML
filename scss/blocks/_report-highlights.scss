@@ -1,0 +1,96 @@
+.report-highlights{
+    padding: 116px;
+    &__title{
+        margin-bottom: 48px;
+    }
+    &__wrapper{
+        display: flex;
+        column-gap:48px;
+    }
+    &__blocks{
+        display: flex;
+        
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+        &-item{
+            width: 264px;
+            img{
+                width: 100%;
+                margin-bottom: 24px;
+            }
+            &-title{
+                color: var(--MED-Medium-Blue, #2514BE);
+
+                /* MED/Subtitle Small */
+                font-family: 'Inter',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 17.6px */
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+            &-descr{
+                color: var(--MED-Black, #000);
+
+                /* MED/Body/Regular */
+                font-family: 'Inter',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 150% */
+            }
+        }
+    }
+    &__main{
+        border-radius: 24px;
+        background: linear-gradient(107deg, #994242 0%, rgba(188, 181, 247, 0.30) 100.67%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        background-blend-mode: screen, normal;
+
+        /* MED/card-shadow-02 */
+        box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
+        display: flex;
+        height: 852px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background: url('../img/report-2020/backgrounds/feature.png') center center / cover no-repeat;
+        &-info{
+            display: flex;
+            padding: 72px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            align-self: stretch;
+            background-color:white;
+            &-subtitle{
+                width: 643px;
+                color: var(--MED-Medium-Blue, #2514BE);
+
+                /* MED/Subtitle Big */
+                font-family: 'Inter',sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%; /* 19.8px */
+                letter-spacing: 0.9px;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+            &-title{
+                color: var(--MED-Medium-Blue, #2514BE);
+
+                /* MED/H2/Medium */
+                font-family: 'Inter',sans-serif;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 130%; /* 62.4px */
+                letter-spacing: -1.5px;
+            }
+        }
+    }
+}

@@ -70,11 +70,16 @@
 				background: var(--MED-White, #FFF);
 				/* MED/card-shadow-02 */
 				box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
+				img{
+					
+					object-fit: contain;
+				}
 				&-info{
 					padding: 48px;
 					&-quotes{
 						margin-bottom: 48px;
 					}
+					
 				}
 			}
 		}

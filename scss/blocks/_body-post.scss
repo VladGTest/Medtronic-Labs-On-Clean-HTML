@@ -30,7 +30,7 @@
         flex-direction: column;
         align-items: flex-start;
         flex-shrink: 0;
-        img{
+        &-image{
             border-radius: 24px 0px 0px 24px;
             background: var(--MED-img-gradient, linear-gradient(107deg, #994242 0%, rgba(188, 181, 247, 0.30) 100.67%));
             mix-blend-mode: screen;
@@ -153,7 +153,7 @@
                     line-height: 32px; /* 177.778% */
                     margin-bottom: 24px;
                     &:last-child{
-                        margin-bottom: 0;
+                        margin-bottom: 60px;
                     }
                 }
                

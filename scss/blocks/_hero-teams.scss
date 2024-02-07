@@ -1,0 +1,70 @@
+.hero-teams{
+    padding: 36px 48px;
+    min-height: 720px;
+    background: url('../img/blogs/backgrounds/hero1.png') center center / cover no-repeat;
+    &__wrapper{
+        width: 100%;
+    }
+    &__navigation{
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 138px;
+        a{
+            display: flex;
+            padding: 14px 0px;
+            align-items: center;
+            gap: 20px;
+            color: var(--MED-White, #FFF);
+            font-family: 'Inter',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 18.2px */
+            opacity: 0.75;
+        }
+        span{
+            display: flex;
+            padding: 14px 0px;
+            align-items: center;
+            gap: 20px;
+            color: var(--MED-White, #FFF);
+            font-family: 'Inter',sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 18.2px */
+        }
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 926px;
+        margin: 0 auto;
+        &-title{
+            color: var(--MED-White, #FFF);
+            text-align: center;
+            
+            /* MED/H2/Medium */
+            font-family: 'Inter',sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 62.4px */
+            letter-spacing: -1.5px;
+        }
+        &-descr{
+            color: var(--MED-White, #FFF);
+            text-align: center;
+
+            /* MED/Body/Large */
+            font-family: 'Inter',sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+            opacity: 0.96;
+        }
+    }
+}

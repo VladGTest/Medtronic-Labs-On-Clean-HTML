@@ -62,8 +62,8 @@
 				/* MED/card-shadow-02 */
 				box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
                 img{
-                    
-                    object-fit: contain;
+                    border-radius: 0 24px 24px 0 ;
+					object-fit: contain;
 
                 }
 				&-info{

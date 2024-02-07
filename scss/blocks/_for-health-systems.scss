@@ -56,13 +56,13 @@
 				width: 764px;
 				display: flex;
 				align-items:center;
-				border-radius: 0px 24px 24px 0px;
+				border-radius: 24px 0px 0px 24px;
 				background: var(--MED-White, #FFF);
 				/* MED/card-shadow-02 */
 				box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.10);
 				img{
-					width: 284px;
 					object-fit: contain;
+					
 				}
 				&-info{
 					padding: 48px;

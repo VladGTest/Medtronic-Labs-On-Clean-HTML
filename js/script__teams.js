@@ -46,7 +46,9 @@ for(let i = 0; i < teamsCards.length;i++){
     });
 
     teamsCards[i].getElementsByClassName('team-section__list-card-icons-plus')[0].addEventListener('click',()=>{
-        overlayTeamCard.classList.add('active');
+        overlayTeamCard.classList.add('active','fade');
+        overlayTeamCard.classList.remove('hide');
+        document.body.style.overflow = "hidden";
     });
 }
 
@@ -74,6 +76,8 @@ for(let i = 0; i < overviewsCards.length;i++){
 
 
 closeOverlayTeamCard.addEventListener('click',()=>{
-    overlayTeamCard.classList.remove('active');
+    overlayTeamCard.classList.remove('active','fade');
+    overlayTeamCard.classList.add('hide');
+    document.body.style.overflow = "auto";
 });
 

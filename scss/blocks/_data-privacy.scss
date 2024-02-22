@@ -4,10 +4,11 @@
     &__title{
         color:white;
         margin-bottom: 24px;
-    }
-    hr{
-        border:2px solid #BCB5F7;
-        margin-bottom: 72px;
+        &::after{
+            @include decorationLine;
+            background-color: #BCB5F7;
+            margin: 24px 0 72px 0;
+        }
     }
     &__descr{
         color: var(--MED-White, #FFF);

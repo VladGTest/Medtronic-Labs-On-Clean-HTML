@@ -1,11 +1,9 @@
 .footer {
-    padding: 48px;
-
-    hr {
-        border: 2px solid #BCB5F7;
+    &::before{
+        @include decorationLine;
         margin-bottom: 108px;
     }
-
+    padding: 48px;
     &__content {
         display: flex;
         justify-content: space-between;
@@ -58,6 +56,8 @@
                     line-height: 24px;
                     /* 150% */
                     opacity: 0.5;
+                    width: 219px;
+                
                 }
             }
         }

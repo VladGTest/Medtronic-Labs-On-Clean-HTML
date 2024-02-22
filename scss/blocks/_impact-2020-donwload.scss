@@ -6,7 +6,7 @@
         column-gap: 48px;
         flex-direction: row;
         margin-bottom: 84px;
-
+        
         &-left {
             padding: 36px;
             width: 580px;
@@ -104,14 +104,14 @@
         }
     }
 
-    hr {
-        border: 2px solid #BCB5F7;
-        margin-bottom: 84px;
-    }
+    
 
     &__info {
         margin-bottom: 48px;
-
+        &::before{
+            @include decorationLine;
+            margin: 84px 0;
+        }
         &-subtitle {
             color: var(--MED-Medium-Blue, #2514BE);
 
@@ -132,7 +132,7 @@
             column-gap: 48px;
             flex-direction: row;
             align-items:center;
-
+            
             &-left {
                 display: flex;
                 width: 580px;

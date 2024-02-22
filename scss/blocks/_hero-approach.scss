@@ -67,15 +67,19 @@
             }
         }
         &__footer{
-            hr{
-                border:2px solid #BCB5F7;
-                margin:48px 0;
+            &-title{
+                &::after{
+                    @include decorationLine;
+                    margin: 48px 0;
+                }
             }
+          
             &-content{
                 display: flex;
                 column-gap:48px;
                 align-items: flex-start;
                 width: 100%;
+               
                 &-title{
                     color: var(--MED-Medium-Blue, #2514BE);
                     /* MED/H3/Medium */
@@ -86,6 +90,7 @@
                     line-height: 130%; /* 46.8px */
                     letter-spacing: -1px;
                     width: 616px;
+                    
                 }
                 &-descr{
                     color: var(--MED-Black, #000);

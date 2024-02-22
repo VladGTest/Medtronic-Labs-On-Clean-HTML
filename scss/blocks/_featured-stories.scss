@@ -74,6 +74,11 @@
                 font-style: normal;
                 font-weight: 500;
                 line-height: 24px; /* 150% */
+                transition: 0.3s all;
+                &:hover{
+                    transition: 0.3s all;
+                    opacity: 0.5;
+                }
                
             }
         }

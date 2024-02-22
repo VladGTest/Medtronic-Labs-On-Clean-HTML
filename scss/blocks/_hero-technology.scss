@@ -38,12 +38,13 @@
             font-weight: 500;
             line-height: 130%; /* 62.4px */
             letter-spacing: -1.5px;
-            margin-bottom: 48px;
+           
+            &::after{
+                @include decorationLine;
+                margin: 48px 0;
+            }
         }
-        hr{
-            border:2px solid #BCB5F7;
-            margin-bottom: 48px;
-        }
+       
         &-info{
             &-title,&-descr{
                 width: 612px;

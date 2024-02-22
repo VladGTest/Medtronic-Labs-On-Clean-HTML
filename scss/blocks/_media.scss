@@ -9,11 +9,9 @@
         &__wrapper{
             flex-direction: column;
             align-items:flex-start;
-            padding: 48px 48px 48px 0;
+            padding: 48px 48px 48px 48px;
         }
-        &__logo{
-            padding-left: 48px;
-        }
+        
         &__nav{
             flex-direction: column;
             position: absolute;
@@ -36,6 +34,9 @@
                 align-items:flex-start;
                 li{
                     margin-bottom: 40px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
                 }
             }
         }
@@ -327,6 +328,10 @@
 
         }
     }
+
+    .team-card-overlay{
+        width: 900px;
+    }
     
 }
 
@@ -425,11 +430,13 @@
     }
     .for-patients{
         &__item{
+            padding: 48px 48px;
             &-header{
                 padding-right: 0;
             }
             &-main{
                 &-block{
+                    border-radius:24px;
                     &-info{
                         width: auto;
                     }
@@ -439,11 +446,13 @@
     }
     .for-partners{
         &__item{
+            padding: 48px 48px;
             &-header{
                 padding-left: 0;
             }
             &-main{
                 &-block{
+                    border-radius:24px;
                     &-info{
                         width: auto;
                     }
@@ -456,11 +465,14 @@
     }
     .for-health-systems{
         &__item{
+            padding: 48px 48px;
             &-header{
                 padding-right: 0;
             }
             &-main{
+                
                 &-block{
+                    border-radius:24px;
                     &-info{
                         width: auto;
                     }
@@ -660,6 +672,10 @@
             width: 100%;
         }
     }
+
+    .team-card-overlay{
+        width: 650px;
+    }
     
 }
 @media (max-width:768px){
@@ -668,14 +684,14 @@
     }
     .header{
         &__logo{
-            padding-left: 12px;
+           
             svg{
                 width: 217.676px;
                
             }
         }
         &__wrapper{
-            padding: 12px 12px 12px 0;
+            padding: 12px 12px 12px 12px;
         }
         &__hamburger{
             top: 25px;
@@ -840,10 +856,9 @@
                 flex-wrap: wrap;
                 &-locations,&-healper,&-socials{
                     width: 100%;
-                }
-                ul{
                     margin-bottom: 48px;
                 }
+                
             }
         }
         &__down{
@@ -947,7 +962,7 @@
                         padding: 24px;
                     }
                     img{
-                        width: 100%;
+                        width: 50%;
                     }
                 }
             }
@@ -1059,6 +1074,8 @@
                 
                 img{
                     width: 50%;
+                    margin: 0 auto;
+                    border-radius:0;
                 }
                 &-info{
                     width: 100%;
@@ -1403,6 +1420,22 @@
                 }
             }
         }
+     }
+
+     .overlay{
+        padding: 48px 12px;
+     }
+     .team-card-overlay{
+        width: 80%;
+        flex-direction: column-reverse;
+        img{
+            border-radius:0;
+            margin: 0 auto;
+            width: 50%;
+            height: 50%;
+
+        }
+        
      }
 }
 @media(max-width:576px){

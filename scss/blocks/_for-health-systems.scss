@@ -8,13 +8,11 @@
 			
 			
 			&-title {
-				margin-bottom: 24px;
-
-			}
-
-			hr {
-				border: 2px solid #BCB5F7;
-				margin-bottom: 72px;
+				&::after{
+					margin-top: 24px;
+					margin-bottom: 96px;
+					@include decorationLine;
+				}
 			}
 
 			&-block {
@@ -94,6 +92,7 @@
                         margin-bottom: 24px;
                     }
                     &-author{
+						
                         &-initials{
                             color: var(--MED-Medium-Blue, #2514BE);
 
@@ -103,6 +102,7 @@
                             font-style: normal;
                             font-weight: 700;
                             line-height: 130%; /* 26px */
+							margin-bottom: 6px;
                         }
                         &-location{
                             color: var(--MED-Medium-Blue, #2514BE);

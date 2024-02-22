@@ -1,12 +1,12 @@
 .overview-blog{
     padding: 116px 0 116px 116px;
     &__title{
-        margin-bottom: 24px;
+        &::after{
+            @include decorationLine;
+            margin: 24px 0 72px 0;
+        }
     }
-    hr{
-        border:2px solid #BCB5F7;
-        margin-bottom: 72px;
-    }
+   
     &__info{
         display: flex;
         column-gap:96px;

@@ -12,6 +12,7 @@
        
         &-info{
             padding-right: 116px;
+            margin-bottom: 48px;
             &-title{
                 color: var(--MED-Medium-Blue, #2514BE);
 
@@ -38,7 +39,7 @@
             &-list{
                 display: flex;
                 gap: 24px;
-                margin-bottom: 48px;
+                
                 flex-wrap: wrap;
                 &-item{
                     
@@ -167,6 +168,7 @@
     }
     &__block{
         &-info{
+            margin-bottom: 48px;
             padding-left: 116px;
             &-title{
                 color: var(--MED-Medium-Blue, #2514BE);
@@ -194,7 +196,7 @@
             &-list{
                 display: flex;
                 gap: 24px;
-                margin-bottom: 48px;
+               
                
                 &-item{
                     display: flex;

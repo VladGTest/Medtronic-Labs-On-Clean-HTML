@@ -1,0 +1,7 @@
+@mixin decorationLine{
+    content: '';
+    
+    display: block;
+    height: 2px;
+    background-color:#bcb5f7;
+}

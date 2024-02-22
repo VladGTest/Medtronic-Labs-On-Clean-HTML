@@ -1,12 +1,12 @@
 .principles {
     padding: 116px;
     &__title {
-        margin-bottom: 24px;
-    }
-
-    hr {
-        border: 2px solid #BCB5F7;
-        margin-bottom: 96px;
+       
+        &::after{
+            @include decorationLine;
+            margin-top: 24px;
+            margin-bottom: 96px;
+        }
     }
     &__image{
         display: flex;
@@ -40,7 +40,9 @@
             opacity: 0.5;
             &:last-child{
                 margin-bottom: 0;
+                
             }
+            
             &.active{
                 opacity: 1;
             }
@@ -54,6 +56,9 @@
                 line-height: 130%; /* 46.8px */
                 letter-spacing: -1px;
                 margin-bottom: 12px;
+                &.last{
+                    margin-bottom: 0;
+                }
                 
             }
             &-descr{

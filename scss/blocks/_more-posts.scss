@@ -1,10 +1,11 @@
 .more-posts{
     padding: 56px 116px 116px 116px;
-  
+    
     &__list{
         display: flex;
         flex-wrap: wrap;
         column-gap: 50px;
+
         
         &-item{
             display: flex;
@@ -78,6 +79,13 @@
                     line-height: 32px; /* 177.778% */
                     text-decoration-line: underline;
                     opacity: 1;
+                }
+                a{
+                    transition: 0.3s all;
+                    &:hover{
+                        transition: 0.3s all;
+                        opacity: 0.5;
+                    }
                 }
                
             }

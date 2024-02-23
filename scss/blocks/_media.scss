@@ -378,6 +378,7 @@
     .newsletters{
         &__block{
             width: 560px;
+            
         }
     }
     .hero-programs{
@@ -699,6 +700,17 @@
         &__nav{
             margin-top: 60px;
             padding: 12px;
+        }
+    }
+    .newsletters{
+        &__block{
+            &-layout{
+                &-newsletters{
+                    &-input{
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
     .hero, .hero-programs, .hero-technology{
